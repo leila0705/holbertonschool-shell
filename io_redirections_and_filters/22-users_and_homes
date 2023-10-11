@@ -1,3 +1,2 @@
 #!/bin/bash
-getent passwwd | cut -d: -f6 
-
+getent passwd | cut -d: -f6
